@@ -110,3 +110,7 @@ footer {
   margin-top: 30px;
   text-align: center;
 }
+input {
+  border-radius: 5px;
+  outline: none;
+}
