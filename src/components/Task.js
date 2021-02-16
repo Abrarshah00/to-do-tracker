@@ -11,7 +11,7 @@ const Task = ({ task, onDelete, onToggle }) => {
         {task.text}{" "}
         <MdClear
           style={{ color: "red", cursor: "pointer" }}
-          onClick={() => onDelete(task.id)}
+          onClick={(id) => onDelete(task.id)}
         />
       </h3>
       <p>{task.day}</p>

@@ -1,6 +1,12 @@
 .App {
   text-align: center;
 }
+.root {
+  background: linear-gradient(to right top, #13547a, #80d0c7);
+}
+.container {
+  background: linear-gradient(to right top, #13547a, #80d0c7);
+}
 
 .App-logo {
   height: 40vmin;
